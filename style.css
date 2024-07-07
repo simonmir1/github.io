@@ -1,0 +1,45 @@
+html {
+    font-size: 18px;
+    font-family: Palatino,serif;
+    background-color: white;
+ } 
+ 
+body {
+      max-width: 100ch;
+			margin: 0em auto;
+      padding: 1em 2em;
+			line-height: 1.4;
+			font-size: 16px;
+      background-color: white;
+ }
+
+ h1 {
+  text-align: center;
+ }
+
+ h2 {
+  padding-bottom: 2px;
+  margin-bottom: 20px;
+  margin-top: 50px;
+  border-bottom: solid 1px black;
+}
+
+a:link, a:visited {
+  color: darkblue;
+  text-decoration: none;
+}
+
+a:hover, a:active {
+  color: #FF7F00;
+  text-decoration: underline;
+}
+
+table, th, td {
+  border: 1px solid black;
+  border-collapse: collapse;
+}
+
+details {
+  border : 1px solid;
+  padding : .2em 1em;
+}
